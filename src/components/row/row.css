@@ -1,0 +1,6 @@
+.page-block {
+   margin-bottom: 20px;
+}
+.page-block:last-child {
+   margin-bottom: 0;
+}
