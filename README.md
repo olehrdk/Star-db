@@ -1,3 +1,1 @@
-# StarWars Data Base
-React
-SWAPI
+# React App. Work with Star Wars API
