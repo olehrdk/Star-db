@@ -4,4 +4,4 @@ Used Technologies:
 - React
 - Star Wars Api
 
-Demo: 
+Demo: https://olehrdk.github.io/Star-db/
