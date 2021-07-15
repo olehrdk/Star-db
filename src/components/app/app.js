@@ -9,7 +9,7 @@ import ErrorBoundry from '../error-boundry'
 import {LoginPage, PeoplePage, PlanetPage, SecretPage, StarshipPage} from '../pages'
 import { SwapiServiceProvider } from '../swapi-service-context'
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 
 import './app.css'
@@ -32,7 +32,7 @@ export default class App extends React.Component{
       return (
          <ErrorBoundry >
             <SwapiServiceProvider value={this.swapiService}>
-               <Router>
+               <Router basename={process.env.PUBLIC_URL}>
                   <div className="container">
 
                      <Header />
